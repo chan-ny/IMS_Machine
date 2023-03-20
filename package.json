@@ -1,0 +1,24 @@
+{
+    "name": "abs_ko",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon index.js",
+        "start": "node index.js"
+    },
+    "author": "cdg",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.2",
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.5",
+        "dotenv": "^8.2.0",
+        "jimp": "^0.16.1",
+        "node-onvif": "^0.1.7",
+        "nodemon": "^2.0.6",
+        "odbc": "^2.3.5",
+        "resize-img": "^2.0.0"
+    }
+}
